@@ -3,6 +3,9 @@
 Levl is a macOS menu-bar app. After launch, click the Levl icon in the menu bar to open the
 mixer. It does not add an icon to the Dock.
 
+For details about VoiceOver, Voice Control, keyboard navigation, display accommodations, and
+accessibility feedback, read [Accessibility at Levl](ACCESSIBILITY.md).
+
 ## Quick help
 
 - **No applications appear:** start audio playback, then click the refresh button in Levl.
@@ -19,6 +22,9 @@ For support, email [theomarie@protonmail.com](mailto:theomarie@protonmail.com).
 
 Levl est une app de barre des menus macOS. Après le lancement, cliquez sur son icône dans la
 barre des menus pour ouvrir le mixeur. Levl n'ajoute pas d'icône dans le Dock.
+
+Pour les informations sur VoiceOver, le Contrôle vocal, la navigation au clavier, les adaptations
+d'affichage et les retours d'accessibilité, consultez [Accessibilité de Levl](ACCESSIBILITY.md).
 
 ## Aide rapide
 
