@@ -3,7 +3,7 @@
 Levl is designed so its common tasks can be completed with VoiceOver, Voice Control, the
 keyboard, and macOS display accommodations.
 
-## Accessibility features implemented in Levl 1.2.1
+## Accessibility features in Levl 1.3
 
 - **VoiceOver:** controls expose concise names, values, states, and a logical reading order.
 - **Voice Control:** visible wording and contextual input labels identify actions unambiguously.
@@ -17,6 +17,12 @@ keyboard, and macOS display accommodations.
 
 Levl's accessibility implementation addresses first launch, audio permission, the menu-bar mixer,
 master and per-app audio controls, outputs, scenes, automation, error recovery, and settings.
+The Free core mixer is scheduled to become available without payment worldwide on September 22,
+2026; Pro adds optional monthly, annual, and lifetime features. The Pro offer, purchase, restore,
+and subscription-management flows are part of the release candidate and require manual validation
+on the shipping binary before they are treated as confirmed accessibility coverage.
+Levl has no advertising, account system, or tracking. Early Supporters who acquired Levl before
+the transition keep Pro for life.
 
 Each release must be manually validated on the shipping binary with the corresponding macOS
 assistive technology before its App Store accessibility declarations are treated as confirmed.
@@ -39,7 +45,7 @@ assistive technology used, and the task affected.
 Levl est conçu pour que ses tâches courantes soient réalisables avec VoiceOver, le Contrôle vocal,
 le clavier et les adaptations d'affichage de macOS.
 
-## Fonctions d'accessibilité mises en œuvre dans Levl 1.2.1
+## Fonctions d'accessibilité dans Levl 1.3
 
 - **VoiceOver :** les commandes exposent des noms, valeurs et états concis dans un ordre logique.
 - **Contrôle vocal :** les textes visibles et libellés contextuels identifient chaque action sans
@@ -56,6 +62,13 @@ le clavier et les adaptations d'affichage de macOS.
 Le travail d'accessibilité de Levl porte sur le premier lancement, l'autorisation audio, le mixeur
 de la barre des menus, les commandes audio principales et par app, les sorties, les scènes,
 l'automatisation, la récupération après erreur et les réglages.
+Le mixeur essentiel Free doit devenir disponible sans paiement dans le monde entier le 22 septembre
+2026 ; Pro ajoute des fonctions mensuelles, annuelles ou à vie. L'offre Pro, l'achat, la
+restauration et la gestion de l'abonnement font partie de la release candidate et doivent être
+validés manuellement sur le binaire distribué avant d'être considérés comme une couverture
+d'accessibilité confirmée.
+Levl ne comporte ni publicité, ni compte, ni suivi. Les Early Supporters ayant acquis Levl avant
+la transition conservent Pro à vie.
 
 Chaque version doit être validée manuellement sur le binaire distribué avec la technologie
 d'assistance macOS correspondante avant de considérer ses déclarations d'accessibilité App Store

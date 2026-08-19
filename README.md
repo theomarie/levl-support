@@ -13,8 +13,10 @@ accessibility feedback, read [Accessibility at Levl](ACCESSIBILITY.md).
   system-audio permission when prompted.
 - **An output is missing:** reconnect the device, then refresh the output list.
 - **System requirements:** macOS 14.4 or later, on Apple silicon or Intel.
-- **Purchases and refunds:** Levl is a single paid download with no subscription. Billing and
-  refund requests are handled by Apple.
+- **Purchases and refunds:** Levl's core mixer becomes free worldwide on September 22, 2026.
+  Pro is available as a monthly or annual subscription, or a one-time lifetime purchase. Early
+  Supporters who acquired Levl before the transition keep Pro for life. Apple handles billing and
+  refund requests. Levl has no advertising, account system, or tracking.
 
 For support, email [theomarie@protonmail.com](mailto:theomarie@protonmail.com).
 
@@ -33,7 +35,9 @@ d'affichage et les retours d'accessibilité, consultez [Accessibilité de Levl](
   l'autorisation audio système demandée par macOS.
 - **Une sortie est absente :** reconnectez-la, puis actualisez la liste des sorties.
 - **Configuration requise :** macOS 14.4 ou version ultérieure, Apple Silicon ou Intel.
-- **Achat et remboursement :** Levl est un téléchargement payant unique, sans abonnement.
-  Apple gère la facturation et les demandes de remboursement.
+- **Achat et remboursement :** le mixeur essentiel de Levl devient gratuit dans le monde entier le
+  22 septembre 2026. Pro existe en abonnement mensuel ou annuel, ou en achat unique à vie. Les
+  Early Supporters ayant acquis Levl avant la transition conservent Pro à vie. Apple gère la
+  facturation et les demandes de remboursement. Levl ne comporte ni publicité, ni compte, ni suivi.
 
 Assistance : [theomarie@protonmail.com](mailto:theomarie@protonmail.com).
