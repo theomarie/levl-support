@@ -37,12 +37,13 @@ Levl processes other apps' audio in real time and in memory to apply volume, mut
 level metering. It does not record, persist, or transmit that audio. Live level meters are
 supplemental; their corresponding sliders remain standard, labeled controls.
 
-Levl 2's distinct Pro recorder can persist only the screen and audio sources a user explicitly
-selects after starting a recording. Its source selection, countdown, pause, stop, draft recovery,
-and export controls have names, states, focus handling, and reduced-motion alternatives in the
-release candidate. This complete recorder task remains pending manual validation with VoiceOver,
-Voice Control, and Full Keyboard Access on the shipping binary, so it isn't yet included in an
-App Store accessibility declaration.
+Levl 2's distinct Pro recorder can persist selected screen content, global Mac audio—including
+audible apps and notifications—and an optional microphone, only after the user explicitly starts a
+recording. Its source selection, countdown, pause, stop, draft recovery, and export controls have
+names, states, focus handling, and reduced-motion alternatives in the release candidate. This
+complete recorder task remains pending manual validation with VoiceOver, Voice Control, and Full
+Keyboard Access on the shipping binary, so it isn't yet included in an App Store accessibility
+declaration.
 
 To report an accessibility issue, email
 [theomarie@protonmail.com](mailto:theomarie@protonmail.com) and include your macOS version, the
@@ -90,11 +91,12 @@ Levl traite en mémoire et en temps réel l'audio des autres apps pour appliquer
 silence, le routage et les niveaux. Il ne l'enregistre, ne le conserve et ne le transmet pas. Les
 vumètres sont complémentaires ; les curseurs associés restent des commandes standard libellées.
 
-L'enregistreur Pro distinct de Levl 2 ne peut conserver que l'écran et les sources audio choisis
-explicitement après le démarrage d'une capture. Dans la release candidate, la sélection de source,
-le décompte, la pause, l'arrêt, la récupération du brouillon et l'export disposent de noms, états,
-gestion du focus et alternatives en cas de réduction des animations. Ce parcours complet reste à
-valider manuellement avec VoiceOver, le Contrôle vocal et l'Accès complet au clavier sur le binaire
+L'enregistreur Pro distinct de Levl 2 peut conserver le contenu d'écran choisi, le son global du
+Mac — apps audibles et notifications comprises — et un micro optionnel, uniquement après le
+démarrage explicite d'une capture. Dans la release candidate, la sélection de source, le décompte,
+la pause, l'arrêt, la récupération du brouillon et l'export disposent de noms, états, gestion du
+focus et alternatives en cas de réduction des animations. Ce parcours complet reste à valider
+manuellement avec VoiceOver, le Contrôle vocal et l'Accès complet au clavier sur le binaire
 distribué ; il n'est donc pas encore inclus dans une déclaration d'accessibilité App Store.
 
 Pour signaler un problème d'accessibilité, écrivez à
