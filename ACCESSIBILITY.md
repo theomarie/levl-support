@@ -17,24 +17,32 @@ keyboard, and macOS display accommodations.
 
 Levl's accessibility implementation addresses first launch, audio permission, the menu-bar mixer,
 master and per-app audio controls, outputs, scenes, automation, error recovery, and settings.
-The Free core mixer is scheduled to become available without payment worldwide on September 22,
-2026; Pro adds optional monthly, annual, and lifetime features. The Pro offer, purchase, restore,
-and subscription-management flows are part of the release candidate and require manual validation
-on the shipping binary before they are treated as confirmed accessibility coverage.
-Levl has no advertising, account system, or tracking. Early Supporters who acquired Levl before
-the transition keep Pro for life.
+The core mixer is available free; Pro adds optional monthly, annual, and lifetime features. The Pro
+offer, purchase, restore, and subscription-management flows are part of the release candidate and
+require manual validation on the shipping binary before they are treated as confirmed accessibility
+coverage.
+Levl has no advertising, account system, or tracking. Eligible Early Supporters keep Pro for life,
+based on a verified Apple transaction.
 
 Each release must be manually validated on the shipping binary with the corresponding macOS
 assistive technology before its App Store accessibility declarations are treated as confirmed.
 Automated tests and Accessibility Inspector are supporting evidence, not a substitute for that
 validation.
 
-The App Store Larger Text label is not available for macOS. Levl contains no spoken audio, video,
-cutscenes, or other time-based editorial media, so Captions and Audio Descriptions do not apply.
+The App Store Larger Text label is not available for macOS. Levl contains no bundled spoken audio,
+video, cutscenes, or other time-based editorial media, so Captions and Audio Descriptions don't
+apply to the app's own content.
 
 Levl processes other apps' audio in real time and in memory to apply volume, mute, routing, and
 level metering. It does not record, persist, or transmit that audio. Live level meters are
 supplemental; their corresponding sliders remain standard, labeled controls.
+
+Levl 2's distinct Pro recorder can persist only the screen and audio sources a user explicitly
+selects after starting a recording. Its source selection, countdown, pause, stop, draft recovery,
+and export controls have names, states, focus handling, and reduced-motion alternatives in the
+release candidate. This complete recorder task remains pending manual validation with VoiceOver,
+Voice Control, and Full Keyboard Access on the shipping binary, so it isn't yet included in an
+App Store accessibility declaration.
 
 To report an accessibility issue, email
 [theomarie@protonmail.com](mailto:theomarie@protonmail.com) and include your macOS version, the
@@ -62,26 +70,32 @@ le clavier et les adaptations d'affichage de macOS.
 Le travail d'accessibilité de Levl porte sur le premier lancement, l'autorisation audio, le mixeur
 de la barre des menus, les commandes audio principales et par app, les sorties, les scènes,
 l'automatisation, la récupération après erreur et les réglages.
-Le mixeur essentiel Free doit devenir disponible sans paiement dans le monde entier le 22 septembre
-2026 ; Pro ajoute des fonctions mensuelles, annuelles ou à vie. L'offre Pro, l'achat, la
-restauration et la gestion de l'abonnement font partie de la release candidate et doivent être
-validés manuellement sur le binaire distribué avant d'être considérés comme une couverture
-d'accessibilité confirmée.
-Levl ne comporte ni publicité, ni compte, ni suivi. Les Early Supporters ayant acquis Levl avant
-la transition conservent Pro à vie.
+Le mixeur essentiel est disponible gratuitement ; Pro ajoute des fonctions mensuelles, annuelles
+ou à vie. L'offre Pro, l'achat, la restauration et la gestion de l'abonnement font partie de la
+release candidate et doivent être validés manuellement sur le binaire distribué avant d'être
+considérés comme une couverture d'accessibilité confirmée.
+Levl ne comporte ni publicité, ni compte, ni suivi. Les Early Supporters éligibles conservent Pro à
+vie, sur la base d'une transaction Apple vérifiée.
 
 Chaque version doit être validée manuellement sur le binaire distribué avec la technologie
 d'assistance macOS correspondante avant de considérer ses déclarations d'accessibilité App Store
 comme confirmées. Les tests automatisés et Accessibility Inspector complètent cette validation
 sans la remplacer.
 
-Le label App Store **Texte plus grand** n'est pas disponible pour macOS. Levl ne contient ni
-parole, ni vidéo, ni cinématique, ni autre contenu éditorial temporel ; les labels **Sous-titres**
-et **Descriptions audio** ne s'appliquent donc pas.
+Le label App Store **Texte plus grand** n'est pas disponible pour macOS. Levl ne contient ni parole,
+ni vidéo, ni cinématique, ni autre contenu éditorial temporel intégré ; les labels **Sous-titres**
+et **Descriptions audio** ne s'appliquent donc pas au contenu propre de l'app.
 
 Levl traite en mémoire et en temps réel l'audio des autres apps pour appliquer le volume, le
 silence, le routage et les niveaux. Il ne l'enregistre, ne le conserve et ne le transmet pas. Les
 vumètres sont complémentaires ; les curseurs associés restent des commandes standard libellées.
+
+L'enregistreur Pro distinct de Levl 2 ne peut conserver que l'écran et les sources audio choisis
+explicitement après le démarrage d'une capture. Dans la release candidate, la sélection de source,
+le décompte, la pause, l'arrêt, la récupération du brouillon et l'export disposent de noms, états,
+gestion du focus et alternatives en cas de réduction des animations. Ce parcours complet reste à
+valider manuellement avec VoiceOver, le Contrôle vocal et l'Accès complet au clavier sur le binaire
+distribué ; il n'est donc pas encore inclus dans une déclaration d'accessibilité App Store.
 
 Pour signaler un problème d'accessibilité, écrivez à
 [theomarie@protonmail.com](mailto:theomarie@protonmail.com) en précisant votre version de macOS,
